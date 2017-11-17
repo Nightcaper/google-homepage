@@ -1,0 +1,92 @@
+* {
+  /*
+  border: 1px solid black;
+  */
+  color: grey;
+}
+
+form {
+  height: 100px;
+}
+
+#navbar-container {
+  height: 45px;
+}
+
+#navbar-container li, #navbar-sign-in span {
+  display: inline-block;
+}
+
+#navbar-about, #navbar-store {
+  position: relative;
+  right: 25px;
+  padding-right: 10px;
+}
+
+#navbar-right-container {
+  display: inline;
+  float: right;
+  margin-right: 10px;
+}
+
+#navbar-right-container li {
+  padding-right: 10px;
+}
+
+#navbar-options img {
+  max-height: 20px;
+  max-width: 20px;
+}
+
+#navbar-sign-in span {
+  color: white;
+  background-color: #4285f4;
+  padding: 8px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  border-radius: 7%;
+}
+
+#container {
+  width: 100%;
+  height: 70%;
+}
+
+
+#image-logo {
+  width: 272px;
+  height: 92px;
+
+  margin: 12% auto;
+}
+
+#search-box {
+  width: 400px;
+  height: 150px;
+  margin: 0 auto;
+
+  position: relative;
+  bottom: 90px;
+}
+
+#search-field {
+  display: block;
+  width: 380px;
+  height: 22px;
+  color: black;
+}
+
+
+#submit-button {
+  margin-right: 11px;
+}
+
+#submit-button, #feeling-x {
+  display: inline-block;
+
+  position: relative;
+  top: 25px;
+  left: 12%;
+  padding: 5px;
+}

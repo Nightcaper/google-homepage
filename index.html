@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>James's Google Page Mimic</title>
+    <meta charset="utf-8" />
+	<!--
+
+	I had the choice of going with a 'reset' file, or a 'normalize' file. I decided 'normalize' made more sense as a modern, DRY-friendly standard
+
+	-->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="header-bar">
+      <ul id="navbar-container">
+        <li id="navbar-about">About</li>
+        <li id="navbar-store">Store</li>
+        <div id="navbar-right-container">
+          <li id="navbar-gmail">Gmail</li>
+          <li id="navbar-images">Images</li>
+          <li id="navbar-options"><img src="./img/google-options-img.png" /></li>
+          <li id="navbar-sign-in"><span>Sign In</span></li>
+        </div>
+      </ul>
+    </div>
+    <div id="container">
+      <div id="image-logo">
+        <a href="#"><img id="logo" src="./img/better_google_logo.png" /></a>
+      </div>
+      <div id="search-box">
+        <form action="#" method="GET" name="google-search-query">
+          <input id="search-field" type="text" placeholder="           Type in here and press Enter to search..."></input>
+          <input id="submit-button" type="submit" value="Google Search" name="search-button"></input>
+          <input id="feeling-x" type="submit" value="I'm Feeling Unimplemented" name="feeling-button"></input>
+        </form>
+      </div>
+    </div>
+    <div id="footer-bar">
+    </div>
+  </body>
+</html>
